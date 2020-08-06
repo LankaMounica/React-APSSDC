@@ -1,0 +1,24 @@
+// Main
+.Brands {
+    min-width: 100vw;
+    min-height: 100vh;
+    display: grid;
+    grid-auto-rows: 1fr;
+    place-items: center;
+
+    // Components
+    .Brand {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+
+        .Header {
+            width: 100%;
+            height: 20%;
+
+            display: grid;
+            place-items: center;
+        }
+    }
+}

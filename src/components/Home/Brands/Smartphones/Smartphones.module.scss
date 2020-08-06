@@ -1,0 +1,12 @@
+.Smartphones {
+    width: 100%;
+    height: 80%;
+
+    display: flex;
+    justify-content: space-evenly;
+
+    .Smartphone {
+        display: grid;
+        place-items: center;
+    }
+}
